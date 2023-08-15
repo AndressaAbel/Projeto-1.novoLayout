@@ -1,0 +1,111 @@
+body {
+    background: url('imagens/fundoGradiente.jpg')  no-repeat;
+    background-size: 100;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    line-height: 56px; /*altura da linha*/
+    font-size: 49px; /*tamanho da fonte*/ 
+    text-shadow: 0px 4px 4px rgba(110,110,110,0.35);
+    font-weight: normal;
+
+    /* Botton é a margem de baixo do elemento*/
+    /*TOP= 0, Right= auto, Botton inf=72*/
+    margin-bottom: 72px;
+}
+
+h1>span {
+    font-weight:bold;
+}
+
+h2 {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 50px;
+    font-size: 49px;
+    font-weight: bold;
+    color: #658094;
+}
+
+/* span geral dos textos */
+span {
+    color: #FF9900;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+a {
+    color: #FF9900;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 36px;
+}
+
+#Footer {
+    
+    position: fixed;
+    
+}
+
+#Hero {
+    /*Tamanho da minha imagem*/
+    width: 592px;
+    margin: auto;
+}
+
+#Balls {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+#caixas {
+    display: flex;
+    width: 235px;
+    height: 122px;
+    text-align: center;
+    margin: auto center;
+}
+
+.numeros{
+    color: #333333;
+    font-size: 140px;
+    font-weight: bold;
+    opacity: 8%;
+    margin-inline: 10px;
+}
+
+.Links{
+    position: fixed;
+    bottom: 0px;
+    font-size: 16px;
+    text-align:center;
+}
+
+/* Pseudo elemento de seleção de componentes*/
+.Links a {
+    margin-left: 280px;
+}
+
+.Line {
+    align-self: center;
+    position: fixed;
+    bottom: 8px;
+    left: 180px;
+
+    /* Largura da linha*/
+    width: 1001px;
+
+    /* Altura da linha*/
+    height: 0px;
+
+    border: 12px solid #F5D9FF;
+    opacity: 0.30;
+}
